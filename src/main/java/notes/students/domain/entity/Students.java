@@ -4,13 +4,27 @@ public abstract class Students {
 	private int id;
 	private String nombres;
 	private String Apellidos;
+	private String tipo;
 	
-	public Students(int id,String nombres,String apellidos) {		
+	public Students() {
+		
+	}
+	
+	public Students(int id,String nombres,String apellidos, String tipo) {		
 		this.id = id;
 		this.nombres = nombres;
 		this.Apellidos = apellidos;
+		this.tipo = tipo;
 	}
 	
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
 	public int getId() {
 		return id;
 	}

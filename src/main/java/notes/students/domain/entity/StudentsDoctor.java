@@ -2,8 +2,8 @@ package notes.students.domain.entity;
 
 public class StudentsDoctor extends Students{
 
-	public StudentsDoctor(int id, String nombres, String apellidos) {
-		super(id, nombres, apellidos);
+	public StudentsDoctor(int id, String nombres, String apellidos, String tipo) {
+		super(id, nombres, apellidos, tipo);
 	}
 
 		@Override
